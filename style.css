@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body {
+  background-image: url("https://media.giphy.com/media/pOEbLRT4SwD35IELiQ/giphy.gif");
+  background-size: cover;
+  background-position: center;
+  color: rgb(173, 248, 0);
+  font-family: 'JetBrains Mono', monospace; /
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.slot-machine {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 160px;
+  height: 160px;
+  border: 4px solid crimson;
+  background-size: cover;
+  margin: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 0 10px;
+}
+
+.balance {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.amount-input-container {
+  margin-bottom: 20px;
+}
+
+.amount-input-container input {
+  padding: 8px;
+}
+
+.message-display {
+  font-size: 18px;
+  margin-top: 20px;
+}
